@@ -8,6 +8,7 @@ public class Main {
 
     Dictionary<String, Contact> phonebook = new Hashtable<>();
     Scanner scan = new Scanner(System.in);
+        scan.nextLine();
 
     while(true){
         System.out.println("Menu:");
